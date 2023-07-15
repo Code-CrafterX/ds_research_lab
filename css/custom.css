@@ -4,3 +4,7 @@
 .card{
     background-color: rgb(219, 219, 219) !important;
 }
+
+.table-container{
+    width:90%;
+}
