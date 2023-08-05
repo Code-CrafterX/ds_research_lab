@@ -140,3 +140,16 @@ button {
     pointer-events: none;
     cursor: default;
  }
+
+ /* Learn more paragraph */
+ .learn-more-paragraph {
+    text-indent: 50px;
+  }
+
+/* key contribution hover effect */
+.key-contribution{
+    transition: transform 0.5s;
+}
+.key-contribution:hover{
+    transform: scale(1.10);
+}
