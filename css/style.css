@@ -21,6 +21,12 @@
 /*------------------------------------------------------------------ 
     SKELETON
 -------------------------------------------------------------------*/
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+  }
+
 
 body {
 	color: #666666;
@@ -351,7 +357,9 @@ button:focus {
     background-color: #fff;
     background-size: auto 100%;
     width: 90%;
-    margin: 0 5%;
+    /* margin: 0 5%; */
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+
 }
 
 .top-header .navbar .navbar-collapse ul li a {
@@ -1970,11 +1978,11 @@ ul.social_icon li {
 	margin: 0 5px;
 }
 
-.inner_page .top-header {
+/* .inner_page .top-header {
 
     position: relative;
 
-}
+} */
 
 .inner_page .inner_page_header {
 
@@ -2099,9 +2107,9 @@ ul.bottom_menu li {
 	margin-left: 20px;
 }
 
-#inner_page header.top-header {
+/* #inner_page header.top-header {
     position: relative !important;
-}
+} */
 
 .bottom_menu {
 	float: right;
@@ -2126,6 +2134,7 @@ ul.bottom_menu li {
 }
 
 section.inner_banner {
+	margin-top: 75px;
     min-height: 125px;
     background: #002147;
 }
@@ -2264,10 +2273,15 @@ section.inner_banner h3 {
 
 /* Footer fixed */
 .footer_bottom{
-	/* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
 }
 
 /* Header fixed */
+.top-header{
+	position: fixed; 
+	left: 0;
+    top: 0;
+    width: 100%;
+}
