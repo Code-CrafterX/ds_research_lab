@@ -153,3 +153,16 @@ button {
 .key-contribution:hover{
     transform: scale(1.10);
 }
+
+/* Awards page */
+.awards-container{
+    border: 3px solid black;
+    display: flex;
+    gap:4vw;
+}
+.award-icon{
+    width: 20vw;
+}
+.award-text{
+    width:100%;
+}
