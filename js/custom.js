@@ -97,11 +97,19 @@
 
 // Show more button in index.html
 const showMoreBtn = document.getElementById('more-info-button');
-console.log(showMoreBtn.value );
 const content = document.getElementById('show-more-content');
+const moreinfotext = document.getElementById('more-info-text')
 
 showMoreBtn.addEventListener('click', () => {
 	content.classList.toggle('visible');
+	if(moreinfotext.textContent == 'Learn More')
+	{
+		moreinfotext.textContent = 'Show less'
+	}
+	else if(moreinfotext.textContent == 'Show less')
+	{
+		moreinfotext.textContent = 'Learn More'
+	}
 });
 
 
