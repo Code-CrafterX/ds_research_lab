@@ -156,12 +156,14 @@ button {
 
 /* Awards page */
 .awards-container{
-    border: 3px solid black;
+    border: 2px solid black;
     display: flex;
-    gap:4vw;
+    gap:2vw;
 }
-.award-icon{
-    width: 20vw;
+.awardee{
+    display: flex;
+    flex-direction: column;
+    /* width:100%; */
 }
 .award-text{
     width:100%;
