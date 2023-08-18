@@ -2248,3 +2248,9 @@ section.inner_banner h3 {
 	top: 0;
 	width: 100%;
 }
+
+/* Border line */
+.border-line{
+	border-left:1px solid #000;
+	height:200px;
+}
