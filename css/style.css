@@ -200,6 +200,7 @@ button:focus {
 	width: 250px;
 	height: auto;
 	-webkit-transform-style: preserve-3d;
+	transform-style: flat;
 }
 
 .loader img {
@@ -397,7 +398,6 @@ a.navbar-brand img {
 	height: 55px;
 }
 
-.top-header .navbar .navbar-collapse ul li a.active {}
 
 .top-header .navbar .navbar-collapse ul li a:hover,
 .top-header .navbar .navbar-collapse ul li a:focus {
@@ -829,7 +829,6 @@ span.icon img {
 	margin-bottom: 30px;
 }
 
-.about-m {}
 
 .about-img {
 	padding: 30px 0px;
@@ -907,7 +906,7 @@ span.icon img {
 	-webkit-transition-duration: 0.3s;
 	transition-duration: 0.3s;
 	color: #fff;
-	float: left;
+	/* float: left; */
 	width: 165px;
 	height: 45px;
 	text-align: center;
@@ -1116,7 +1115,6 @@ figure.effect-service:hover {
 	padding: 70px 0px 120px;
 }
 
-.gallery-box ul {}
 
 .gallery-box ul li {
 	position: relative;
@@ -1654,7 +1652,6 @@ p.count-text {
 	color: #57cef8;
 }
 
-.contact-block {}
 
 .contact-block .form-group .form-control {
 	background: #333;
@@ -2247,15 +2244,4 @@ section.inner_banner h3 {
 	left: 0;
 	top: 0;
 	width: 100%;
-}
-
-/* Border line */
-.border-line{
-	border-left:1px solid #000;
-	height:200px;
-}
-
-.our-team-border{
-	border-left:1px solid #636363b7;
-	height:350px;
 }
