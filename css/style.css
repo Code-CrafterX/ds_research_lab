@@ -2254,3 +2254,8 @@ section.inner_banner h3 {
 	border-left:1px solid #000;
 	height:200px;
 }
+
+.our-team-border{
+	border-left:1px solid #636363b7;
+	height:350px;
+}
