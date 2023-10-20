@@ -171,10 +171,55 @@ button:hover .button-text {
 /* Border line */
 .border-line{
 	border-left:1px solid #000;
-	height:200px;
+	height:580px;
 }
 
 .our-team-border{
 	border-left:1px solid #636363b7;
 	height:350px;
 }
+
+.fw-500{
+    font-weight: 500;
+}
+
+/* To make list pointer as arrow */
+.angle-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .angle-list li::before {
+    content: ">";
+    color: #0077b6; /* Set your desired color */
+    margin-right: 8px;
+  }
+
+/* To make list pointer as filled arrow */
+.arrow-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .arrow-list li::before {
+    content: "→"; /* Use the right-pointing arrow icon as the content */
+    color: #0077b6; /* Set your desired color */
+    margin-right: 8px;
+    font-weight: bold; /* Make it bold if desired */
+    font-size: 16px; /* Adjust the size as needed */
+  }
+
+/* Custom list */
+.filled-triangle-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .filled-triangle-list li::before {
+    content: "▶"; /* Use a right-pointing triangle character */
+    color: #0077b6; /* Set your desired color */
+    margin-right: 8px;
+    font-weight: bold; /* Make it bold if desired */
+    font-size: 16px; /* Adjust the size as needed */
+  }
+

@@ -35,7 +35,7 @@
 				<div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
 					<ul class="navbar-nav">
 						<li><a class="nav-link" href="https://dca.cusat.ac.in/lab.php">Laboratories</a></li>
-                        <li><a class="nav-link" href="Our Research Team.html">Our Team</a></li>
+						<li><a class="nav-link" href="Our Research Team.html">Our Team</a></li>
 						<!-- <li><a class="nav-link" href="news.html">News</a></li> -->
 						<li><a class="nav-link" href="contact.html">Contact us</a></li>
 					</ul>
@@ -58,7 +58,7 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="full">
-						<h3>Data Science Research Lab</h3>
+						<h2>Data Science Research Lab</h2>
 						<h5></h5>
 					</div>
 				</div>
@@ -87,11 +87,11 @@
 							<!-- <button class="more-button" id="more-info-button">More info</button> -->
 							<button class="learn-more" id="more-info-button">
 								<span class="circle" aria-hidden="true">
-								<span class="icon arrow"></span>
+									<span class="icon arrow"></span>
 								</span>
 								<span id="more-info-text" class="button-text">Learn More</span>
 							</button>
-						
+
 						</div>
 					</div>
 				</div>
@@ -109,7 +109,7 @@
 							</ol>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img class="d-block w-100" src="images\Datascience\Datascience1.JPG"
+									<img class="d-block w-100" src="images\Datascience\Datascience3.JPG"
 										alt="First slide">
 								</div>
 								<div class="carousel-item">
@@ -118,7 +118,8 @@
 								</div>
 								<!-- Add image  -->
 								<div class="carousel-item">
-									<img class="d-block w-100" src="images\Datascience\Datascience3.jpg" alt="Third slide">
+									<img class="d-block w-100" src="images\Datascience\Datascience1.jpg"
+										alt="Third slide">
 								</div>
 							</div>
 						</div>
@@ -128,7 +129,7 @@
 		</div>
 	</div>
 	<!-- Show more div -->
-	<div class="container mt-5 hidden" id="show-more-content">
+	<div class="container mt-5 hidden " id="show-more-content">
 		<p class="text-justify learn-more-paragraph">
 			We foster a collaborative and supportive environment for researchers and students to contribute to impactful
 			projects and gain hands-on experience with state-of-the-art tools and technologies. Our lab actively seeks
@@ -144,7 +145,25 @@
 				<div class="container">
 					<div class="row h5 justify-content-center text-info">Big Data Computing Facility</div>
 					<div class="row mt-5 h6">Fujitsu Primergy RX2540 M4 - Name Node (1)</div>
+					<ul class="arrow-list">
+						<li>CPU Model : Intel(R) Xeon(R) Gold6126 CPU @ 2.60GHz</li>
+						<li>Core(s) : 48</li>
+						<li>RAM(DDR4) : 256(32*8) GB</li>
+						<li>Storage Drives : HD SATA 6G 6TB 7.2K<br>
+							HD SAS 12G 300GB 10K<br>
+							HD SAS 12G 1.8TB 10K
+						</li>
+					</ul>
 					<div class="row mt-4 h6">Fujitsu Primergy RX2530 M4 - Data Node (2)</div>
+					<ul class="arrow-list">
+						<li>CPU Model : Intel(R) Xeon(R) Gold6126 CPU @ 2.60GHz</li>
+						<li>Core(s) : 48</li>
+						<li>RAM(DDR4) : 256(32*8) GB</li>
+						<li>Storage Drives : HD SATA 6G 6TB 7.2K<br>
+							HD SAS 12G 300GB 10K<br>
+							HD SAS 12G 1.8TB 10K
+						</li>
+					</ul>
 				</div>
 			</div>
 			<div class="border-line"></div>
@@ -152,43 +171,53 @@
 			<div class="col">
 				<div class="container">
 					<div class="row h5 justify-content-center text-info">AI Server</div>
-					<details class="mt-5">
-						<summary class="h6">Nvidia A100 GPU</summary>
-						<ul>
-							<li>GPU Card: 2* NVIDIA A100 40GB PCIe 4.0</li>
-							<li>CUDA Core: 2* 6912</li>
-							<li>Tensor Core: 2* 432</li>
-							<li>MIG Support: Upto 7 GPU instances</li>
-						</ul>
-					</details>
+					<div class="h6 mt-4">Nvidia A100 GPU</div>
+					<ul class="arrow-list">
+						<li>GPU Card: 2* NVIDIA A100 40GB PCIe 4.0</li>
+						<li>CUDA Core: 2* 6912</li>
+						<li>Tensor Core: 2* 432</li>
+						<li>MIG Support: Upto 7 GPU instances</li>
+					</ul>
+
+					<div class="h6 mt-4">Lenovo ThinkSystem SR670</div>
+					<ul class="arrow-list">
+						<li>Processor : 2 * Intel Xeon Gold 6226R 16C 150W 2.9 GHz Processor</li>
+						<li>Memory : 12 * 64GB DDR4 2933MHz RDIMM</li>
+						<li>Disk : 8 * 1.92 TB 6Gbps SATA 2.5" SSD</li>
+						<li>Network Port : Intel X710-DA2 PCIe 10Gb 2-Port SFP + Ethernet Adapter</li>
+						<li>Operating System : Ubuntu 20.04</li>
+						<li>Scheduler : Kubernetes</li>
+						<li>Monitoring Tool : Grafana</li>
+						<li>Remote Management : XClarity-Controller</li>
+					</ul>
 				</div>
 			</div>
 			<div class="border-line"></div>
 			<!-- Third column -->
 			<div class="col">
 				<div class="container">
-					<div class="row h5 justify-content-center text-info text-center">Deep Learning Computing Systems</div>
-					<details class="mt-4">
-						<summary class="h6">Boston Workstation(1)</summary>
-						<ul>
-							<li>64 GB RAM</li>
-							<li>Nvidia GeForce</li>
-							<li>GTX 1080 Ti GPU</li>
-							<li>Intel Core i7-7700 K CPU</li>
-							<li>4TB SATA HDD</li>
-							<li>480 GB SATA SSD</li>
-						</ul>
-					</details>
-					<details class="mt-4">
-						<summary class="h6">High Performance Computing System (8)</summary>
-						<ul>
-							<li>32 GB RAM</li>
+
+					<div class="row h5 justify-content-center text-info text-center">Deep Learning Computing Systems
+					</div>
+
+					<div class="h6 mt-4">Boston Workstation(1)</div>
+					<ul class="arrow-list">
+						<li>64 GB RAM</li>
+						<li>Nvidia GeForce</li>
+						<li>GTX 1080 Ti GPU</li>
+						<li>Intel Core i7-7700 K CPU</li>
+						<li>4TB SATA HDD</li>
+						<li>480 GB SATA SSD</li>
+					</ul>
+
+					<div class="h6 mt-4">High Performance Computing System (8)</div>
+					<ul class="arrow-list">
+						<li>32 GB RAM</li>
 							<li>Nvidia GeForce GTX</li>
 							<li>1060 GPU</li>
 							<li>1 TB SATA HDD</li>
 							<li>240 GB SSD</li>
-						</ul>
-					</details>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -208,7 +237,7 @@
 				<div class="col-md-3 key-contribution">
 					<div class="full blog_img_popular">
 						<a href="Data Science Paper published.html">
-						<img class="img-responsive border" src="images/Papers Published.png" alt="#" />
+							<img class="img-responsive border" src="images/Papers Published.png" alt="#" />
 							<h4>Publications</h4>
 						</a>
 					</div>
@@ -217,7 +246,7 @@
 				<div class="col-md-3 key-contribution">
 					<div class="full blog_img_popular">
 						<a href="acheivments.html">
-						<img class="img-responsive border" src="images/Acheivements.jpg" alt="#" />
+							<img class="img-responsive border" src="images/Acheivements.jpg" alt="#" />
 							<h4>Acheivements</h4>
 						</a>
 					</div>
@@ -226,7 +255,7 @@
 				<div class="col-md-3 key-contribution">
 					<div class="full blog_img_popular">
 						<a href="Data Science Workshops.html">
-						<img class="img-responsive border" src="images/Workshops.jpg" alt="#" />
+							<img class="img-responsive border" src="images/Workshops.jpg" alt="#" />
 							<h4>Workshops</h4>
 						</a>
 					</div>
@@ -235,7 +264,7 @@
 				<div class="col-md-3 key-contribution">
 					<div class="full blog_img_popular">
 						<a href="Technical talk.html">
-						<img class="img-responsive border" src="images/Technical Talks.jpg" alt="#" />
+							<img class="img-responsive border" src="images/Technical Talks.jpg" alt="#" />
 							<h4>Technical Talks</h4>
 						</a>
 					</div>
@@ -252,7 +281,7 @@
 				</div>
 			</div>
 		</div>
-	</div> 
+	</div>
 	<!-- Scroll to top -->
 	<a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
 	<!-- ALL JS FILES -->

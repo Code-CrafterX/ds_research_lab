@@ -2170,6 +2170,16 @@ section.inner_banner h3 {
 	padding: 0;
 	color: #fff;
 }
+section.inner_banner h2 {
+	margin: 0;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: -1px;
+	text-align: center;
+	line-height: 110px !important;
+	padding: 0;
+	color: #fff;
+}
 
 #demo .img-responsive {
 	width: 100%;
