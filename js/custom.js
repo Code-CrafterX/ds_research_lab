@@ -102,13 +102,13 @@ const moreinfotext = document.getElementById('more-info-text')
 
 showMoreBtn.addEventListener('click', () => {
 	content.classList.toggle('visible');
-	if(moreinfotext.textContent == 'Learn More')
+	if(moreinfotext.textContent == 'Read More')
 	{
 		moreinfotext.textContent = 'Show less'
 	}
 	else if(moreinfotext.textContent == 'Show less')
 	{
-		moreinfotext.textContent = 'Learn More'
+		moreinfotext.textContent = 'Read More'
 	}
 });
 
